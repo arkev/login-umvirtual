@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#username").focus(),$("#submit").click(function(){event.preventDefault();var a="alumno"===$("#username").val(),e="e42lite2015"===$("#password").val();a===!0&&e===!0?($(".valid").css("display","block"),window.location="http://umvirtual.org"):$(".error").css("display","block")})});
