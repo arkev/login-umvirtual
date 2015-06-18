@@ -1,4 +1,5 @@
 $(document).ready(function () {
+	//Código para el falso login
 	$('#username').focus();
 
 	$('#submit').click(function () {
